@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "commonjs",
+    "lib": ["dom", "ESNext", "DOM.Iterable"],
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "declaration": false,
+    "strict": true,
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "typeRoots": ["./node_modules/@types"],
+    "skipLibCheck": true
+  },
+  "exclude": [
+    "node_modules",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js"
+  ]
+}
